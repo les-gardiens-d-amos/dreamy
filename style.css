@@ -7,10 +7,71 @@
   --purple-color: #2A0F45;
 }
 
+
+
+@font-face {
+  font-family: 'pokemon_solidnormal';
+  src: url('fonts/pokemon_solid-webfont.woff2') format('woff2'),
+       url('fonts/pokemon_solid-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'pokemon_classic';
+  src: url('fonts/pokemon_classic-webfont.woff2') format('woff2'),
+       url('fonts/pokemon_classic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
 html {
   background: linear-gradient(180deg, rgba(42,15,69,1) 26%, rgba(93,27,83,1) 66%, rgba(168,39,121,1) 95%, rgba(237,60,124,1) 100%) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section#wrap {
+  width: 550px;
+  height: 300px;
+  margin-top: 10vh;
+  text-align: center;
+}
+
+#play-store-link, #ios-store-link {
+  display: inline-block;
+  text-align: left;
+}
+
+#play-store-img, #ios-store-img {
+  width: 110px;
+}
+
+#qr {
+  width: 120px;
+  margin-bottom: 10px;
+  margin: 0 0 20px 12px;
+  border-radius: 4px;
+}
+
+h1 {
+  color: #FFF;
+  font-size: 3em;
+  font-family:pokemon_solidnormal;
+  text-shadow: -3px 0 var(--pink-color), 0 3px var(--pink-color),
+      3px 0 var(--pink-color), 0 -3px var(--pink-color);
+}
+
+h2 {
+  font-family: pokemon_classic;
+  font-weight: 300;
+  font-size: 0.8em;
+  color: #FFF;
+  text-align: left;
 }
