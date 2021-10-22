@@ -49,8 +49,13 @@ section#wrap {
   text-align: left;
 }
 
-#play-store-img, #ios-store-img {
-  width: 110px;
+#play-store-img {
+  width: 150px;
+}
+
+#ios-store-img {
+  width: 129px;
+  padding: 9px;
 }
 
 #qr {
