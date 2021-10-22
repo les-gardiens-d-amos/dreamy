@@ -1,0 +1,16 @@
+/** pink: #ED3C7C  / lightBlue:  #7EDCE6 / lightGreen: #63BC55  / darkGreen: #1B5A3C / purple: #2A0F45 **/
+:root {
+  --pink-color: #ED3C7C;
+  --light-blue-color: #7EDCE6;
+  --light-green-color: #63BC55;
+  --dark-green-color: #1B5A3C;
+  --purple-color: #2A0F45;
+}
+
+html {
+  background: linear-gradient(180deg, rgba(42,15,69,1) 26%, rgba(93,27,83,1) 66%, rgba(168,39,121,1) 95%, rgba(237,60,124,1) 100%) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
